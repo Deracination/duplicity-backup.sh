@@ -464,4 +464,6 @@ TELEGRAM_KEY=""
 # printed to the logfile.  This way, you can see if the problem is with the
 # script or with duplicity.
 #
+# DANGER: if you uncomment ECHO your backups will only log commands and will not
+# DANGER: backup anything
 #ECHO=$(which echo)
